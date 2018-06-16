@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.media.slideshow" name="Media Slideshow" version="0.0.1" provider-name="Krishna Bhattarai">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+
+
+    </requires>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Plays media (both images and videos) from a directory in a loop </summary>
+        <description lang="en_GB"></description>
+        <language></language>
+        <platform>linux osx</platform>
+        <license>MIT</license>
+        <forum></forum>
+        <website>omega.uta.edu/~kxb3292/</website>
+        <email>krishnamani.bhattarai@mavs.uta.edu</email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
